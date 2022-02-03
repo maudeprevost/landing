@@ -1,0 +1,91 @@
+/* style.css */
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+  margin:0;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  background-color: #0035bd;
+}
+.banner {
+	background-image: url('images/background.jpg');
+	background-position: center;
+	background-size:cover;
+	padding:150px 0;
+	text-align: center;
+
+}
+.banner h1 {
+	color: white;
+	font-size: 45px
+	margin: 0;
+}
+
+.banner p {
+	color: white;
+	opacity:0.6;
+	font-size: 25px;
+	margin: 35px;
+}
+
+.button-blue {
+	background-color:#0048ff;
+	padding: 16px 42px;
+	border-radius:5px;
+	font-size:20px;
+	display:inline-block;
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0 0 16px #dbe5ff;
+	border-radius:5px;
+	text-align:center;
+	width: 240px;
+	height: 350px;
+	padding: 20px 20px;
+	margin: 10px;
+}
+
+.card-white img {
+	border-radius:5px;
+	object-fit: cover;
+	height: 160px;
+}
+
+.card-white p {
+	text-align:left;
+}
+
+.container {
+	margin:auto;
+	width:800px;
+	padding: 20px;
+}
+
+.footer {
+	background-color:#424242;
+	padding: 50px 200px;
+	text-align:left;
+}
+
+.footer p {
+	color:white;
+}
+.cards {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr
+}
