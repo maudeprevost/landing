@@ -71,15 +71,14 @@ a:hover {
 }
 
 .container {
-	margin:auto;
-	width:800px;
-	padding: 20px;
+	margin:60px auto;
+	width:900px;
 }
 
 .footer {
 	background-color:#424242;
-	padding: 50px 200px;
 	text-align:left;
+	padding:10px;
 }
 
 .footer p {
@@ -89,3 +88,9 @@ a:hover {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr
 }
+
+div {
+	display:block;
+}
+
+
