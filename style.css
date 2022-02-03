@@ -53,7 +53,7 @@ a:hover {
 	background: white;
 	box-shadow: 0 0 16px #dbe5ff;
 	border-radius:5px;
-	text-align:center;
+	text-align:left;
 	width: 240px;
 	height: 350px;
 	padding: 20px 20px;
@@ -64,6 +64,7 @@ a:hover {
 	border-radius:5px;
 	object-fit: cover;
 	height: 160px;
+
 }
 
 .card-white p {
